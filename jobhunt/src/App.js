@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Form from './form'
 
 function App() {
   return (
-    <div>hello world</div>
+    <div>
+      <Form />
+    </div>
   );
 }
 
