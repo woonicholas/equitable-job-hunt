@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Form from './form'
+import Jobhunt from './form'
 
 function App() {
   return (
     <div>
-      <Form />
+      <Jobhunt />
     </div>
   );
 }
 
 export default App;
+
