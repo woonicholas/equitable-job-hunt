@@ -109,13 +109,12 @@ class Jobhunt extends Component{
                 <br></br>
                 <Form onSubmit = { this.handleSubmit }>
                     <FormGroup>
-                        <Label for="name">Name</Label>
+                        <Label for="name">Full Name</Label>
                         <Input 
                         type="text" 
                         id="name" 
                         value = {this.state.name} 
-                        onChange = {this.handleNameChange} 
-                        placeholder="Full Name" />
+                        onChange = {this.handleNameChange} />
                     </FormGroup>
                     <FormGroup>
                         <Label for="phone">Phone</Label>
@@ -143,7 +142,7 @@ class Jobhunt extends Component{
                         placeholder="University of California, Irvine" />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="studies">Area(s) of Study</Label>
+                        <Label for="studies">Area(s) of Study/Interest</Label>
                         <Input type="text" 
                         id="studies"
                         value = {this.state.studies}
@@ -158,7 +157,7 @@ class Jobhunt extends Component{
                         placeholder = "Figma, React, MongoDB, ..." />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="company">Company Name and Experience Design</Label>
+                        <Label for="company">Company Name and Experience Description</Label>
                         <Input 
                         type="textarea" 
                         id="company" 
