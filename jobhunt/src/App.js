@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import Form from './form'
+import React from 'react';
+import Jumbo from './pre-form'
 
 function App() {
   return (
     <div>
-      <Form />
+      <Jumbo />
     </div>
   );
 }
