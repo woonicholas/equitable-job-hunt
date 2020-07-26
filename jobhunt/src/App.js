@@ -1,12 +1,13 @@
-import React from 'react';
-import Jumbo from './pre-form'
+import React, { Component } from 'react';
+import Jobhunt from './form'
 
 function App() {
   return (
     <div>
-      <Jumbo />
+      <Jobhunt />
     </div>
   );
 }
 
 export default App;
+
