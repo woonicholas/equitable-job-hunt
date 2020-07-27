@@ -6,7 +6,7 @@ function ApplicantInfo(props) {
     return (
       <div className='col-md-8 m-2'>
         <CardTitle className='m-3'>Candidate #1</CardTitle>
-        <p>{props.info.phone}</p>     
+        <p className='phoneNum'>{props.info.phone}</p>     
         <CardBody>
             <p className="areaofinterest">{props.info.studies}</p>                 
           <hr></hr>

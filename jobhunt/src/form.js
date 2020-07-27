@@ -110,9 +110,9 @@ class Jobhunt extends Component{
 
     render(){
         return (
-            <Container>
+            <Container className='app'>
                 <br></br>
-                <h1 className='title'>Equitable Job Hunt</h1>
+                <h1 className='title'>Diversify</h1>
                 <br></br>
                 <Card className ='p-4'>
                     <Form onSubmit = { this.handleSubmit }>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Jumbo from './pre-form'
-import Jobhunt from './finalForm'
+import Jobhunt from './form'
 import Error from './error'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Company from './company/Company.js';
