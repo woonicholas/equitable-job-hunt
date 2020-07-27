@@ -3,7 +3,7 @@ import Jumbo from './pre-form'
 import Jobhunt from './finalForm'
 import Error from './error'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Company from './company_facing_ui'
+import Company from './company/Company.js';
 
 function App() {
   return (
