@@ -1,0 +1,49 @@
+.cardthing{
+    font-size: 80px;
+}
+
+
+.areaofinterest{
+    font-size: 19px;
+    margin-left: 7px;
+    margin-top: -30px;
+}
+
+.jobdescription{
+    font-size: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.jobdescriptiontext{
+    margin-left: 14px;
+    margin-top: -7px;
+}
+
+.tools{
+    font-size: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toolstext{
+    margin-left: 14px;
+    margin-top: -7px;
+}
+
+.certs{
+    font-size: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.additionalinfo{
+    font-size: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
