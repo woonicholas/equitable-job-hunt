@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { UncontrolledCarousel, Jumbotron, Button, Alert } from 'reactstrap';
+import { UncontrolledCarousel, Jumbotron, Alert } from 'reactstrap';
+import { Toast, ToastBody, ToastHeader } from 'reactstrap';
 import photo1 from './applicantphoto.jpg';
 import photo2 from './employerphoto.jpg';
 import photo3 from './benefitsphoto.jpg';
@@ -33,19 +34,29 @@ const items = [
 const Jumbo = (props) => {
     return(
         <div>
-            <Jumbotron>
-                <h1 className="display-3">Diversify</h1>
-                <p className="lead">Job hunting is hard enough without inherent bias. Let Diversify help you.</p>
-                <hr className="my-2" />
-                <p>Diversify is revolutionizing the job application system by eliminating factors that could generate bias in the selection process.</p>
-                <p className="lead">
-                <Link to='/application-form'>Apply Now</Link>
-                </p>
-            </Jumbotron>
+          <Jumbotron>
+            <h1 className="display-3">Diversify</h1>
+            <p className="lead">Job hunting is hard enough without inherent bias. Let Diversify help you.</p>
+            <hr className="my-2" />
+            <p>Diversify is revolutionizing the job application system by eliminating factors that could generate bias in the selection process.</p>
+            <p className="lead">
+            <Link to='/application-form'>Apply Now</Link>
+            </p>
+          </Jumbotron>
             <Alert color="info" justify="center">
-                How can you benefit from using Diversify?
+              How can you benefit from using Diversify?
             </Alert>
-            <UncontrolledCarousel items={items} />
+          <UncontrolledCarousel items={items} />
+          <div className="p-3 bg-info my-2 rounded">
+            <Toast>
+              <ToastHeader>
+                For Employers
+              </ToastHeader>
+              <ToastBody>
+                <Link to='/applicant-list'>List of Applicants</Link>
+              </ToastBody>
+            </Toast>
+          </div>
         </div>
     );
 };
