@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
+const cors = require('cors')
 //configure database
 const dbConfig = require('./config/config.js');
 const mongoose = require('mongoose');
@@ -25,6 +25,7 @@ function run() {
     app.use(bodyParser.urlencoded({ extended: true}))
     // parse requests of content-type: application/json
     app.use(bodyParser.json())
+    app.use(cors())
 
     app.get('/', (req, res) => {
         res.json({"message": "welcome"})
