@@ -110,7 +110,7 @@ class Jobhunt extends Component{
 render(){
   return (
       <Container>
-        <h1>Equitable Job Hunt</h1>
+        <h1>Diversify</h1>
         <br></br>
         <Form onSubmit = { this.handleSubmit }>
             <FormGroup>
@@ -137,7 +137,7 @@ render(){
                 id="email" 
                 value = {this.state.email} 
                 onChange = {this.handleEmailChange}
-                placeholder = "equitable@jobhunt.com" />
+                placeholder = "johndoe@email.com" />
             </FormGroup>
             <FormGroup>
                 <Label for="school">University/School</Label>
