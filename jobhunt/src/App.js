@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import Jobhunt from './form'
+import Jumbo from './pre-form'
+import Jobhunt from './finalForm'
+import Error from './error'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Jobhunt />
+      <Switch>
+        <Route path="/" component= { Jumbo } exact />
+        <Route path="/application-form" component= { Jobhunt } />
+        <Route component = {Error} />      
+      </Switch>
     </div>
   );
 }
